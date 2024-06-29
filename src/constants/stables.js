@@ -1,4 +1,5 @@
-const UPLOAD_FOLDER_BASE_URL = "http://localhost:5000/uploads/";
+const UPLOAD_FOLDER_BASE_URL =
+  "https://coauthor-testing-backend.onrender.com/uploads/";
 
 const stables = { UPLOAD_FOLDER_BASE_URL };
 
