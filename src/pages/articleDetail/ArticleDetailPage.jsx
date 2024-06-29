@@ -27,7 +27,7 @@ const ArticleDetailPage = () => {
     onSuccess: (data) => {
       setbreadCrumbsData([
         { name: "Home", link: "/" },
-        { name: "Blog", link: "/blog" },
+        { name: "Proposals", link: "/blog" },
         { name: "Proposal title", link: `/blog/${data.slug}` },
       ]);
       setBody(parseJsonToHtml(data?.body));
